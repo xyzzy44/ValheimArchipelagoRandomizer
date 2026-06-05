@@ -18,7 +18,7 @@ public class ValheimRandomizer : BaseUnityPlugin
 {
     public const string ModGuid = "com.samupo.randomizer";
     public const string ModName = "Randomizer";
-    public const string ModVersion = "0.0.0";
+    public const string ModVersion = "0.2.0";
 
     public static string Goal;
 
