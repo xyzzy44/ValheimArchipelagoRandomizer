@@ -222,7 +222,7 @@ public class ValheimRandomizer : BaseUnityPlugin
 
         try
         {
-            string file = Path.Combine(Paths.PluginPath, "research.tsv");
+            string file = Path.Combine(Paths.PluginPath, "ValheimRandomizer/research.tsv");
 
             // Seed a tiny example if missing
             if (!File.Exists(file))
@@ -307,8 +307,8 @@ public class ValheimRandomizer : BaseUnityPlugin
         try
         {
             string pluginFolder = Paths.PluginPath;
-            string recipesFile = System.IO.Path.Combine(pluginFolder, "RecipesWithoutResearch.txt");
-            string piecesFile = System.IO.Path.Combine(pluginFolder, "PiecesWithoutResearch.txt");
+            string recipesFile = System.IO.Path.Combine(pluginFolder, "ValheimRandomizer/RecipesWithoutResearch.txt");
+            string piecesFile = System.IO.Path.Combine(pluginFolder, "ValheimRandomizer/PiecesWithoutResearch.txt");
 
             var recipesWithoutResearch = new List<string>();
             var piecesWithoutResearch = new List<string>();
@@ -372,7 +372,7 @@ public class ValheimRandomizer : BaseUnityPlugin
     {
         try
         {
-            string file = System.IO.Path.Combine(Paths.PluginPath, "trophies.tsv");
+            string file = System.IO.Path.Combine(Paths.PluginPath, "ValheimRandomizer/trophies.tsv");
             if (!System.IO.File.Exists(file))
             {
                 Logger.LogWarning($"Trophy research file not found at {file}. Skipping trophy researches.");
