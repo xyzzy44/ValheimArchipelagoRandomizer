@@ -10,7 +10,7 @@ CapeTrollHide	researchCapeTier2	Cape Tier 2		researchCapeTier1|researchWorkbench
 ArmorRagsChest	researchRagArmor	Rag Armor		researchWorkbench	LeatherScraps:10	ArmorRagsChest|ArmorRagsLegs	1	Useful	
 HelmetLeather	researchLeatherArmor	Leather Armor		researchRagArmor|researchWorkbenchUpgrade1	Blueberries:15|DeerHide:5	ArmorLeatherChest|ArmorLeatherLegs|HelmetLeather	1	Useful	
 HelmetTrollLeather	researchTrollArmor	Troll Armor		researchWorkbenchUpgrade1	TrollHide:10|Thistle:10	HelmetTrollLeather|ArmorTrollLeatherChest|ArmorTrollLeatherLegs	1	Progression	
-HelmetBerserkerHood	researchBearArmor	Bear Armor		researchWorkbenchUpgrade1	BjronPaw:3|Honey:5	HelmetBerserkerHood|ArmorBerserkerChest|ArmorBerserkerLegs	1	Useful	
+HelmetBerserkerHood	researchBearArmor	Bear Armor		researchWorkbenchUpgrade1	BjornPaw:3|Honey:5	HelmetBerserkerHood|ArmorBerserkerChest|ArmorBerserkerLegs	1	Useful	
 SwordWood	researchBladesTier1	Blades Tier 1		researchWorkbench	Wood:5	SwordWood	1	Useful	
 SpearFlint	researchSpearTier1	Spears Tier 1		researchWorkbench	Flint:5|Wood:5	SpearFlint	1	Useful	
 KnifeFlint	researchShortBladesTier1	Short Blades Tier 1		researchWorkbench	Flint:5|Dandelion:5	KnifeFlint	1	Useful	
@@ -36,7 +36,7 @@ Coal	researchCharcoalKiln	Charcoal Kiln		researchWorkbench	Ectoplasm:1|Thistle:1
 PickaxeAntler	researchPickaxeTier1	Pickaxes Tier 1		researchWorkbench	RoundLog:10	PickaxeAntler	2	Progression	Tier 2 to Tier 3
 Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:2|RoundLog:5	Raft	2	Progression	Tier 2 to Tier 3
 Coal	researchSmelter	Smelter		researchWorkbench	RoundLog:10|Raspberry:10	smelter	2	Progression	Tier 2 to Tier 3
-Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	RoundLog:5|MusroomYellow:2	forge	2	Progression	Tier 2 to Tier 3
+Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	RoundLog:5|MushroomYellow:2	forge	2	Progression	Tier 2 to Tier 3
 SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:20	SledgeStagbreaker	2	Useful	
 RoundLog	researchBeamsCorewood	Corewood Beams		|researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
 Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Tin:10|Copper:5	Bronze	3	Progression	Tier 3 to Tier 4
