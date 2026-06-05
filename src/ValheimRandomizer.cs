@@ -13,17 +13,22 @@ using static ValheimRandomizer;
 
 [BepInPlugin(ModGuid, ModName, ModVersion)]
 [BepInDependency(Jotunn.Main.ModGuid)]
+
 public class ValheimRandomizer : BaseUnityPlugin
 {
     public const string ModGuid = "com.samupo.randomizer";
     public const string ModName = "Randomizer";
     public const string ModVersion = "0.0.0";
 
+    public static string Goal;
+
     internal static BepInEx.Configuration.ConfigEntry<bool> randomized;
     internal static BepInEx.Configuration.ConfigEntry<string> archipelagoHostname;
     internal static BepInEx.Configuration.ConfigEntry<int> archipelagoPort;
     internal static BepInEx.Configuration.ConfigEntry<string> archipelagoSlot;
     internal static BepInEx.Configuration.ConfigEntry<string> archipelagoPassword;
+
+
 
     public class TrophyResearch
     {
@@ -132,7 +137,7 @@ public class ValheimRandomizer : BaseUnityPlugin
                 var dropName = it?.m_dropPrefab?.name;
                 if (string.IsNullOrEmpty(dropName)) continue;
 
-                if (dropName == "TrophyFader")
+                if (dropName == $"{Goal}")
                 {
                     ArchipelagoConnection.CompleteGame();
                 }

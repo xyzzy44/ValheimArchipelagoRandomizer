@@ -6,6 +6,7 @@ using Archipelago.MultiClient.Net.Enums;
 using Archipelago.MultiClient.Net.Models;
 using Archipelago.MultiClient.Net.Helpers;
 
+
 internal static class ArchipelagoConnection
 {
     private static ArchipelagoSession session;
@@ -28,6 +29,16 @@ internal static class ArchipelagoConnection
             // Throw the first error up; UI handles it and shows the message
             var failure = (LoginFailure)result;
             throw new Exception(string.Join("; ", failure.Errors ?? Array.Empty<string>()));
+        }
+
+
+        if (result.Successful)
+        {
+           var loginSuccess = (LoginSuccessful)result;
+           if (loginSuccess.SlotData.TryGetValue("goal", out var goal_string))
+           {
+             ValheimRandomizer.Goal = Convert.ToString(goal_string);
+           }
         }
 
         // Hook item reception
@@ -58,11 +69,16 @@ internal static class ArchipelagoConnection
             var item = helper.DequeueItem();
             if (item == null) break;
 
+            var senderID = item.Player;
+            string sender = session.Players.GetPlayerAliasAndName(senderID);
+            if (string.IsNullOrEmpty(sender)) continue;
+
             var name = item.ItemName;
             if (string.IsNullOrEmpty(name)) continue;
 
             if (ValheimRandomizer.archipelagoToResearch.TryGetValue(name, out var researchId))
             {
+                MessageHud.instance.ShowMessage(MessageHud.MessageType.Center, $"Received {name} from {sender}!");
                 ValheimRandomizer.DoUnlockResearch(researchId);
             }
             else
