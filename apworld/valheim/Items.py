@@ -4,7 +4,6 @@ from BaseClasses import Item, ItemClassification
 if TYPE_CHECKING:
     from . import ValheimWorld
 
-
 class ValheimItem(NamedTuple):
     id: int
     item_name: str  # Name of the item
