@@ -45,7 +45,6 @@ class ValheimWorld(World):
             print(f"{goaloption} MATCHED bonemass")
         else:
             print(f"{goaloption} DID NOT MATCH bonemass")
-        print(f"DEBUGSMA1.1: {goaloption}")  # Debugging output
         match goaloption:
             case "eikthyr":
                 trophyname="TrophyEikthyr"
@@ -64,7 +63,6 @@ class ValheimWorld(World):
             case _:
                 trophyname="NOMATCH"
 
-        print(f"DEBUGSMA1.2: {trophyname}")  # Debugging output
         slot_data: Dict[str, Any] = {
             "goal": trophyname
         }
@@ -78,7 +76,6 @@ class ValheimWorld(World):
             print(f"{goaloption} MATCHED bonemass")
         else:
             print(f"{goaloption} DID NOT MATCH bonemass")
-        print(f"DEBUGSMA2.1: {goaloption}")  # Debugging output
         match goaloption:
             case "eikthyr":
                 trophyname="TrophyEikthyr"
@@ -96,5 +93,4 @@ class ValheimWorld(World):
                 trophyname="TrophyFader"
             case _:
                 trophyname="NOMATCH"
-        print(f"DEBUGSMA2.2: {trophyname}")  # Debugging output
         self.multiworld.completion_condition[self.player] = lambda state: state.can_reach_location(f"Trophy: {trophyname}", self.player)
