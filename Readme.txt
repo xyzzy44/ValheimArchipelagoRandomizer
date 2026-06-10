@@ -1,13 +1,28 @@
 INSTALLATION (MOD)
 Valheim Archipelago Randomizer requires BepInEx and Jotunn in order to work properly. You can get them from: https://github.com/Valheim-Modding/Jotunn
 
-Once both BepInEx and Jotunn have been installed, copy the mod folder content (not the folder) to BepInEx plugins.
+Once both BepInEx and Jotunn have been installed, unzip the ValheimRandomizer zip file into your Valheim install directory. When you are finished, the files for the mod should be present in the Valheim/BepInEx/plugins/ValheimRandomizer directory.
+
 Once the game is open a popup window will let you connect to Archipelago.
 
 There is a non randomized mode in order to play "vanilla" progression.
 
 INSTALLATION (APWORLD)
 Open the apworld file and install normally.
+
+PLAYING THE GAME
+AP checks in this randomizer come from two sources:
+
+The research bench:
+
+The research bench is a new build item added by the randomizer. New researches will show up there based on your available materials and the currently unlocked tier.
+Researching these items at the bench does not directly result in unlocking technologies. Rather, each research item is an AP item check. To unlock the technologies, the technology needs to be found as the item given from an AP check.
+When receiving a new technology from an AP check, the build items often won't appear until the game detects the materials required for the first time. This can be from picking up the required materials, or if you already have them, simply rearranging them in your inventory will force the game to examine them again. For example, if you receive Wooden Walls, but do not see them available yet as a build item, picking up more wood or moving wood around in your inventory should make the game notice the recipe and report it to you.
+
+The first time each trophy type is gained, it also results in an AP check being sent. When a trophy is RECEIVED from an AP check, permanent bonuses to various stats, such as Attack/Defense/HP/HP Regen/etc... are gained, based on what type of trophy was obtained.
+
+
+
 
 FILES USED
 research.tsv
