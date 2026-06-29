@@ -4,6 +4,7 @@ Valheim Archipelago Randomizer requires BepInEx and Jotunn in order to work prop
 Once both BepInEx and Jotunn have been installed, unzip the ValheimRandomizer zip file into your Valheim install directory. When you are finished, the files for the mod should be present in the Valheim/BepInEx/plugins/ValheimRandomizer directory.
 
 Once the game is open a popup window will let you connect to Archipelago.
+Make sure that the 'Randomized' checkbox is checked before connecting to the AP server.
 
 There is a non randomized mode in order to play "vanilla" progression.
 
