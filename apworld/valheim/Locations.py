@@ -248,7 +248,7 @@ Trophy,Trophy: TrophyBoar,loc:researchTrophyBoar,Not Missable,Tier0
 Trophy,Trophy: TrophyDeer,loc:researchTrophyDeer,Not Missable,Tier0
 Trophy,Trophy: TrophyGreydwarfBrute,loc:researchTrophyGreydwarfBrute,Not Missable,Tier1
 Trophy,Trophy: TrophyBjorn,loc:researchTrophyBear,Not Missable,Tier1
-Trophy,Trophy: TrophyForestTroll,loc:researchTrophyTroll,Not Missable,Tier1
+Trophy,Trophy: TrophyFrostTroll,loc:researchTrophyTroll,Not Missable,Tier1
 Trophy,Trophy: TrophySkeleton,loc:researchTrophySkeleton,Not Missable,Tier1
 Trophy,Trophy: TrophyGreydwarfShaman,loc:researchTrophyGreydwarfShaman,Not Missable,Tier1
 Trophy,Trophy: TrophySkeletonPoison,loc:researchTrophyRancidRemains,Not Missable,Tier1
