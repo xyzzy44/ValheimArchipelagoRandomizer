@@ -48,7 +48,7 @@ Wooden Beams,item:researchBeamsWood,1,Item,Progression
 Wooden Doors,item:researchDoorsWood,1,Item,Useful
 Cooking Station,item:researchCookingStation,1,Item,Progression
 Storage Tier 1,item:researchStorageTier1,1,Item,Useful
-Storage Tier 2,item:researchStorageTier2,1,Item,Useful
+Storage Tier 2,item:researchStorageTier2,1,Item,Progression
 Bed Tier 1,item:researchBedTier1,1,Item,Progression
 Shields Tier 1,item:researchShieldTier1,1,Item,Useful
 Tower Shields Tier 1,item:researchTowerShieldTier1,1,Item,Useful
@@ -329,6 +329,15 @@ for line in items_txt.strip().splitlines():
             classification=classification_map[parts[4].strip()],
     ))
     current_id += 1
+
+
+def create_item(self, name: str, player: int) -> Item:
+    for item in item_data_table:
+        for _ in range(item.count):  # Create as many instances as specified by `count`
+            # Create the item using Archipelago's Item class
+            if name == item.item_name:
+                return Item(item.item_name, item.classification, item.id, player)
+
 
 
 def create_items(world: "ValheimWorld"):

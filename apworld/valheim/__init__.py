@@ -7,7 +7,7 @@ import itertools
 from worlds.AutoWorld import World
 from .Regions import create_regions
 from .Locations import create_locations, location_table
-from .Items import create_items, item_table
+from .Items import create_item, create_items, item_table, ValheimItem
 from . import Options
 
 class ValheimWorld(World):
@@ -37,14 +37,14 @@ class ValheimWorld(World):
         """
         create_items(self)
 
+    def create_item(self, name: str) -> Item:
+        return create_item(self, name, self.player)
+
+
     def fill_slot_data(self) -> Dict[str, Any]:
         vanilla_tech: List[str] = []
         trophyname="TrophyEikthyr"
         goaloption=self.options.goal.current_key
-        if goaloption == "bonemass":
-            print(f"{goaloption} MATCHED bonemass")
-        else:
-            print(f"{goaloption} DID NOT MATCH bonemass")
         match goaloption:
             case "eikthyr":
                 trophyname="TrophyEikthyr"
@@ -72,10 +72,6 @@ class ValheimWorld(World):
     def set_rules(self):
         trophyname="TrophyEikthyr"
         goaloption=self.options.goal.current_key
-        if goaloption == "bonemass":
-            print(f"{goaloption} MATCHED bonemass")
-        else:
-            print(f"{goaloption} DID NOT MATCH bonemass")
         match goaloption:
             case "eikthyr":
                 trophyname="TrophyEikthyr"
