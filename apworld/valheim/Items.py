@@ -23,8 +23,8 @@ Crafting,item:researchWorkbench,1,Item,Progression
 Clubs Tier 1,item:researchClubTier1,1,Item,Progression
 Lighting Tier 1,item:researchLightingTier1,1,Item,Filler
 Axes Tier 1,item:researchAxeTier1,1,Item,Progression
-Workbench Upgrade 1,item:researchWorkbenchUpgrade1,1,Item,Useful
-Workbench Upgrade 2,item:researchWorkbenchUpgrade2,1,Item,Useful
+Workbench Upgrade 1,item:researchWorkbenchUpgrade1,1,Item,Progression
+Workbench Upgrade 2,item:researchWorkbenchUpgrade2,1,Item,Progression
 Cape Tier 1,item:researchCapeTier1,1,Item,Useful
 Cape Tier 2,item:researchCapeTier2,1,Item,Useful
 Rag Armor,item:researchRagArmor,1,Item,Useful
@@ -67,7 +67,7 @@ Darkwood Beams,item:researchBeamsDarkwood,1,Item,Filler
 Darkwood Decorations,item:researchDecorationsDarkwod,1,Item,Filler
 Cauldron,item:researchCauldron,1,Item,Progression
 Cauldron Upgrade 1,item:researchCauldronUpgrade1,1,Item,Useful
-Mead ketill,item:researchMeadketill,1,Item,Useful
+Mead ketill,item:researchMeadketill,1,Item,Progression
 Knife Butcher,item:researchKnifeButcher,1,Item,Useful
 Nails Tier 1,item:researchNailsTier1,1,Item,Useful
 Axes Tier 2,item:researchAxeTier2,1,Item,Progression
@@ -88,7 +88,7 @@ Pickaxes Tier 2,item:researchPickaxeTier2,1,Item,Progression
 Root Armor,item:researchRootArmor,1,Item,Progression
 Short Blades Tier 3,item:researchShortBladesTier3,1,Item,Progression
 Bows Tier 2,item:researchBowsTier2,1,Item,Progression
-Fermenter,item:researchFermenter,1,Item,Useful
+Fermenter,item:researchFermenter,1,Item,Progression
 Bonfire,item:researchWarmthTier2,1,Item,Useful
 Shields Tier 2,item:researchShieldTier2,1,Item,Useful
 Pickaxes Tier 3,item:researchPickaxeTier3,1,Item,Progression
@@ -169,9 +169,9 @@ Tower Shields Tier 3,item:researchTowerShieldTier3,1,Item,Useful
 Pickaxes Tier 4,item:researchPickaxeTier4,1,Item,Progression
 Sap Extractor,item:researchSapExtractor,1,Item,Useful
 Eitr Refinery,item:researchEitrRefinery,1,Item,Useful
-Black Forge,item:researchBlackForge,1,Item,Useful
-Black Forge Upgrade 1,item:researchBlackForgeUpgrade1,1,Item,Useful
-Black Forge Upgrade 2,item:researchBlackForgeUpgrade2,1,Item,Useful
+Black Forge,item:researchBlackForge,1,Item,Progression
+Black Forge Upgrade 1,item:researchBlackForgeUpgrade1,1,Item,Progression
+Black Forge Upgrade 2,item:researchBlackForgeUpgrade2,1,Item,Progression
 Carapace Armor,item:researchCarapaceArmor,1,Item,Progression
 Long Blades Tier 1,item:researchLongBladesTier1,1,Item,Progression
 Spears Tier 5,item:researchSpearTier5,1,Item,Useful

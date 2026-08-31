@@ -89,6 +89,20 @@ public static class Patches
         }
     }
 
+
+    [HarmonyPatch(typeof(InventoryGui), "UpdateRecipeList")]
+    public class FilterCompletedResearch
+    {
+        [HarmonyPrefix]
+        public static void Prefix(ref List<Recipe> recipes)
+        {
+            if (ValheimRandomizer.hideCompleted.Value)
+            {
+                recipes = recipes.Where(recipe => !ValheimRandomizer.IsResearchCrafted(recipe.m_item.name)).ToList();
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(InventoryGui), "AddRecipeToList",
     new Type[] { typeof(Player), typeof(Recipe), typeof(ItemDrop.ItemData), typeof(bool) })]
     public static class InventoryGui_AddRecipeToList_Patch
@@ -324,7 +338,7 @@ public static class Patches
             if (tiers <= 0) return;
 
             float mul = 1f + DefensePerTier * tiers;
-            __result *= mul;
+            __result = (float)Math.Round((__result * mul), 2);
         }
     }
 

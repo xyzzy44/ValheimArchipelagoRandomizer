@@ -18,10 +18,12 @@ public class ValheimRandomizer : BaseUnityPlugin
 {
     public const string ModGuid = "com.samupo.randomizer";
     public const string ModName = "Randomizer";
-    public const string ModVersion = "0.2.0";
+    public const string ModVersion = "0.2.3";
 
     public static string Goal;
 
+    internal static BepInEx.Configuration.ConfigEntry<bool> gatedResearch;
+    internal static BepInEx.Configuration.ConfigEntry<bool> hideCompleted;
     internal static BepInEx.Configuration.ConfigEntry<bool> randomized;
     internal static BepInEx.Configuration.ConfigEntry<string> archipelagoHostname;
     internal static BepInEx.Configuration.ConfigEntry<int> archipelagoPort;
@@ -57,7 +59,7 @@ public class ValheimRandomizer : BaseUnityPlugin
     public static List<string> research = new List<string>();
     public static Dictionary<string, List<string>> recipeRequirements = new Dictionary<string, List<string>>();
     public static Dictionary<string, TrophyResearch> trophyByItemID = new Dictionary<string, TrophyResearch>();
-    public static Dictionary<string, string> researchToArchipelago = new Dictionary<string, string>();
+    public static Dictionary<string, string> researchToArchipelago = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
     public static Dictionary<string, string> archipelagoToResearch = new Dictionary<string, string>();
 
     public static BepInEx.Logging.ManualLogSource Log { get; private set; }
@@ -66,6 +68,8 @@ public class ValheimRandomizer : BaseUnityPlugin
 
     private void Awake()
     {
+        gatedResearch = Config.Bind("Archipelago", "Enforce Research Prereqs", false, "Prevent out of logic checks at the research table. This behavior is from the original tiered research mod that the Valheim AP randomizer is based on. Disabling this allows any research to be completed as long as the materials have been found.");
+        hideCompleted = Config.Bind("Archipelago", "Hide Completed Research", false, "Hide previously completed research items at the research bench");
         randomized = Config.Bind("Archipelago", "Randomized", false, "Uses Archipelago?");
         archipelagoHostname = Config.Bind("Archipelago", "Host", "localhost", "Archipelago server host");
         archipelagoPort = Config.Bind("Archipelago", "Port", 38281, "Archipelago server port");
@@ -163,7 +167,7 @@ public class ValheimRandomizer : BaseUnityPlugin
         ZoneSystem.instance.SetGlobalKey(research + "_crafted");
         if (randomized.Value)
         {
-            ArchipelagoConnection.SendLocation(researchToArchipelago[research]);
+            ArchipelagoConnection.SendLocation(research);
         }
         else
         {
@@ -256,7 +260,17 @@ public class ValheimRandomizer : BaseUnityPlugin
                 string rid = cols[1];
                 string name = cols[2];
                 string desc = cols[3];
-                string prereqStr = cols[4];
+                string prereqStr;
+                if (gatedResearch.Value)
+                { 
+                    Log.LogInfo("Gating enabled: Adding " + cols[4] + " prereqs to " + cols[2]);
+                    prereqStr = cols[4];
+                }
+                else
+                {
+                    Log.LogInfo("Gating disabled: Adding empty prereqs to " + cols[2]);
+                    prereqStr = "";
+                }
                 string costsStr = cols[5];
                 string gatedStr = cols[6];
 

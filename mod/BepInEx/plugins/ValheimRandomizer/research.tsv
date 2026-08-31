@@ -38,7 +38,7 @@ Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:2|RoundLog:5	
 Coal	researchSmelter	Smelter		researchWorkbench	RoundLog:10|Raspberry:10	smelter	2	Progression	Tier 2 to Tier 3
 Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	RoundLog:5|MushroomYellow:2	forge	2	Progression	Tier 2 to Tier 3
 SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:20	SledgeStagbreaker	2	Useful	
-RoundLog	researchBeamsCorewood	Corewood Beams		|researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
+RoundLog	researchBeamsCorewood	Corewood Beams		researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
 Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Tin:10|Copper:5	Bronze	3	Progression	Tier 3 to Tier 4
 KnifeCopper	researchShortBladesTier2	Short Blades Tier 2		researchShortBladesTier1|researchForge	Copper:10|Stone:10	KnifeCopper	3	Useful	
 SpearChitin	researchHarpoon	Harpoon		researchAxeTier2|researchBoatTier1	Tin:5	SpearChitin	3	Useful	
@@ -126,7 +126,7 @@ Demister	researchWisplight	Wisplight		researchWispFountain	BjornPaw:1|Barley:3	D
 Copper	researchForgeUpgrade2	Forge Upgrade 2		researchForgeUpgrade1|researchBoatTier1	LoxPelt:1	forge_ext1	8	Progression	Tier 8 to Tier 9
 Copper	researchForgeUpgrade3	Forge Upgrade 3		researchForgeUpgrade2|researchBronze	Cloudberry:5	forge_ext2	8	Progression	Tier 8 to Tier 9
 LinenThread	researchSpinningWheel	Spinning Wheel		researchArtisanTable|researchNailsTier2	Cloudberry:9	piece_spinningwheel	8	Progression	Tier 8 to Tier 9
-CapeLinen	researchCapeTier3	Cape Tier 3		researchCapeTier2|researchPickaxeTier3|researchWarhmth1	UndeadBjornRibcage:9	CapeLinen	8	Useful	
+CapeLinen	researchCapeTier3	Cape Tier 3		researchCapeTier2|researchPickaxeTier3|researchWarmthTier1	UndeadBjornRibcage:9	CapeLinen	8	Useful	
 CapeLox	researchCapeTier4	Cape Tier 4		researchCapeTier3	Barley:9	CapeLox	8	Useful	
 CapeWolf	researchCapeTier5	Cape Tier 5		researchCapeTier4	Barley:8	CapeWolf	8	Useful	
 HelmetBerserkerUndead	researchVileboneArmor	Vilebone Armor		researchSpinningWheel|researchForgeUpgrade1	BlackMetalScrap:10	HelmetBerserkerUndead|ArmorBerserkerUndeadChest|ArmorBerserkerUndeadLegs	8	Useful	

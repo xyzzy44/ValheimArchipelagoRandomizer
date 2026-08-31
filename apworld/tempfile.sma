@@ -52,8 +52,8 @@ region_data_table: Dict[str, ValheimRegion] = {}
 # Example region connections text data
 region_txt = '''
 Menu,Tier0
-Tier0,Tier1,Crafting,1,Workbench Upgrade 1,1
-Tier1,Tier2,Axes Tier 1,1,Bed Tier 1,1,Cooking Station,1,Troll Armor,1,Warmth Tier 1,1,Wooden Beams,1,Wooden Roofs,1,Wooden Floors,1,Storage Tier 2,1
+Tier0,Tier1,Crafting,1
+Tier1,Tier2,Axes Tier 1,1,Bed Tier 1,1,Cooking Station,1,Troll Armor,1,Warmth Tier 1,1,Wooden Beams,1,Wooden Roofs,1,Wooden Floors,1,Storage Tier 2,1,Workbench Upgrade 1,1
 Tier2,Tier3,Boat Tier 1,1,Forge,1,Pickaxes Tier 1,1,Smelter,1,Charcoal Kiln,1,Mead ketill,1,Fermenter,1
 Tier3,Tier4,Bronze,1
 Tier4,Tier5,Axes Tier 2,1,Iron Cooking Station,1,Cauldron,1
@@ -82,6 +82,7 @@ for line in region_txt.strip().splitlines():
     # Parse item requirements if available
     if len(parts) > 2:
         for i in range(2, len(parts), 2):
+            print(f"DEBUG: {destination_region} {i}")  # Debugging output
             item = parts[i].strip()
             count = int(parts[i + 1].strip())
             required_items[item] = count
