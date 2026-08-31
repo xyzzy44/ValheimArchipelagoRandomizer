@@ -124,10 +124,11 @@ internal static class ArchipelagoConnection
         {
             if (!key.StartsWith("ap_pending:", StringComparison.Ordinal)) continue;
 
-            var locationName = key.Substring("ap_pending:".Length);
+            var researchId = key.Substring("ap_pending:".Length);
+            var locationName = ValheimRandomizer.researchToArchipelago[researchId];
             if (string.IsNullOrWhiteSpace(locationName)) continue;
 
-            if (HasGlobal($"ap_sent:{locationName}")) continue;
+            if (HasGlobal($"ap_sent:{researchId}")) continue;
 
             try
             {
