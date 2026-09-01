@@ -19,7 +19,7 @@ Bow	researchBowsTier1	Bows Tier 1		researchWorkbench	AncientSeed:2	Bow|ArrowWood
 ArrowFlint	researchArrowsTier1	Arrows Tier 1		researchBowsTier1|researchWorkbenchUpgrade1	Raspberry:10|Flint:5	ArrowFlint	1	Useful	
 ArrowFire	researchArrowsTier2	Arrows Tier 2		researchArrowsTier1	Ectoplasm:1	ArrowFire	1	Useful	
 Hoe	researchHoe	Hoe		researchWorkbench	Thistle:10	Hoe	1	Useful	
-QueenBee	researchBeekeping	Beekeping		researchWorkbench	Honey:3	piece_beehive	1	Useful	WOOD PIECES
+QueenBee	researchBeekeeping	Beekeeping		researchWorkbench	Honey:3	piece_beehive	1	Useful	WOOD PIECES
 Wood	researchFloorWood	Wooden Floors		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_floor_1x1|wood_floor	1	Useful	
 Wood	researchStairsWood	Wooden Stairs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_stair|wood_stepladder	1	Useful	
 Wood	researchWallsWood	Wooden Walls		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45	1	Useful	

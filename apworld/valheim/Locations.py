@@ -40,7 +40,7 @@ Research,Bows Tier 1,loc:researchBowsTier1,Not Missable,Tier1
 Research,Arrows Tier 1,loc:researchArrowsTier1,Not Missable,Tier1
 Research,Arrows Tier 2,loc:researchArrowsTier2,Not Missable,Tier1
 Research,Hoe,loc:researchHoe,Not Missable,Tier1
-Research,Beekeping,loc:researchBeekeping,Not Missable,Tier1
+Research,Beekeeping,loc:researchBeekeping,Not Missable,Tier1
 Research,Wooden Floors,loc:researchFloorWood,Not Missable,Tier1
 Research,Wooden Stairs,loc:researchStairsWood,Not Missable,Tier1
 Research,Wooden Walls,loc:researchWallsWood,Not Missable,Tier1
@@ -68,7 +68,7 @@ Research,Darkwood Beams,loc:researchBeamsDarkwood,Not Missable,Tier3
 Research,Darkwood Decorations,loc:researchDecorationsDarkwod,Not Missable,Tier3
 Research,Cauldron,loc:researchCauldron,Not Missable,Tier3
 Research,Cauldron Upgrade 1,loc:researchCauldronUpgrade1,Not Missable,Tier3
-Research,Mead ketill,loc:researchMeadketill,Not Missable,Tier3
+Research,Mead Ketill,loc:researchMeadketill,Not Missable,Tier3
 Research,Knife Butcher,loc:researchKnifeButcher,Not Missable,Tier3
 Research,Nails Tier 1,loc:researchNailsTier1,Not Missable,Tier4
 Research,Axes Tier 2,loc:researchAxeTier2,Not Missable,Tier4

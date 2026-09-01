@@ -39,7 +39,7 @@ Bows Tier 1,item:researchBowsTier1,1,Item,Progression
 Arrows Tier 1,item:researchArrowsTier1,1,Item,Useful
 Arrows Tier 2,item:researchArrowsTier2,1,Item,Useful
 Hoe,item:researchHoe,1,Item,Useful
-Beekeping,item:researchBeekeping,1,Item,Useful
+Beekeeping,item:researchBeekeeping,1,Item,Progression
 Wooden Floors,item:researchFloorWood,1,Item,Progression
 Wooden Stairs,item:researchStairsWood,1,Item,Useful
 Wooden Walls,item:researchWallsWood,1,Item,Useful
@@ -67,7 +67,7 @@ Darkwood Beams,item:researchBeamsDarkwood,1,Item,Filler
 Darkwood Decorations,item:researchDecorationsDarkwod,1,Item,Filler
 Cauldron,item:researchCauldron,1,Item,Progression
 Cauldron Upgrade 1,item:researchCauldronUpgrade1,1,Item,Useful
-Mead ketill,item:researchMeadketill,1,Item,Progression
+Mead Ketill,item:researchMeadketill,1,Item,Progression
 Knife Butcher,item:researchKnifeButcher,1,Item,Useful
 Nails Tier 1,item:researchNailsTier1,1,Item,Useful
 Axes Tier 2,item:researchAxeTier2,1,Item,Progression
