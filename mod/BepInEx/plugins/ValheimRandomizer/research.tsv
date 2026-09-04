@@ -47,7 +47,7 @@ Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Wood:10|Chitin:2	dar
 Tar	researchDecorationsDarkwod	Darkwood Decorations		researchBoatTier1	Wood:10|Chitin:2	darkwood_decowall|darkwood_arch|darkwood_raven|darkwood_wolf	3	Filler	
 SerpentStew	researchCauldron	Cauldron		researchForge|researchWarmthTier1	Chitin:10	piece_cauldron	3	Useful	
 SerpentStew	researchCauldronUpgrade1	Cauldron Upgrade 1		researchCauldron	Tin:6	cauldron_ext1_spice	3	Useful	
-BarleyWineBase	researchMeadketill	Mead ketill		researchForge	RoundLog:13|Copper:8	piece_MeadCauldron	3	Useful	
+BarleyWineBase	researchMeadKetill	Mead Ketill		researchForge	RoundLog:13|Copper:8	piece_MeadCauldron	3	Useful	
 KnifeButcher	researchKnifeButcher	Knife Butcher		researchForge	CopperOre:6	KnifeButcher	3	Useful	
 BronzeNails	researchNailsTier1	Nails Tier 1		researchBronze	CarrotSeeds:5|Tin:2|Ooze:1	BronzeNails	4	Useful	### No progression, move later
 AxeBronze	researchAxeTier2	Axes Tier 2		researchBronze	Chitin:3|Copper:3|Guck:1	AxeBronze	4	Progression	Tier 4 to Tier 5
