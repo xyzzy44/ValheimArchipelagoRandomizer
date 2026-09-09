@@ -69,7 +69,7 @@ Cauldron,item:researchCauldron,1,Item,Progression
 Cauldron Upgrade 1,item:researchCauldronUpgrade1,1,Item,Useful
 Mead Ketill,item:researchMeadketill,1,Item,Progression
 Knife Butcher,item:researchKnifeButcher,1,Item,Useful
-Nails Tier 1,item:researchNailsTier1,1,Item,Useful
+Nails Tier 1,item:researchNailsTier1,1,Item,Progression
 Axes Tier 2,item:researchAxeTier2,1,Item,Progression
 Workbench Upgrade 3,item:researchWorkbenchUpgrade3,1,Item,Useful
 Bronze Armor,item:researchBronzeArmor,1,Item,Progression
@@ -167,8 +167,8 @@ Scythe,item:researchScythe,1,Item,Useful
 Shields Tier 4,item:researchShieldTier4,1,Item,Useful
 Tower Shields Tier 3,item:researchTowerShieldTier3,1,Item,Useful
 Pickaxes Tier 4,item:researchPickaxeTier4,1,Item,Progression
-Sap Extractor,item:researchSapExtractor,1,Item,Useful
-Eitr Refinery,item:researchEitrRefinery,1,Item,Useful
+Sap Extractor,item:researchSapExtractor,1,Item,Progression
+Eitr Refinery,item:researchEitrRefinery,1,Item,Progression
 Black Forge,item:researchBlackForge,1,Item,Progression
 Black Forge Upgrade 1,item:researchBlackForgeUpgrade1,1,Item,Progression
 Black Forge Upgrade 2,item:researchBlackForgeUpgrade2,1,Item,Progression
