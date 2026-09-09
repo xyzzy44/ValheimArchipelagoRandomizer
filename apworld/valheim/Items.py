@@ -81,7 +81,7 @@ Arrows Tier 3,item:researchArrowsTier3,1,Item,Useful
 Trinkets Tier 1,item:researchTrinketTier1,1,Item,Useful
 Transportation Tier 1,item:researchTransportationTier1,1,Item,Useful
 Transportation Tier 2,item:researchTransportationTier2,1,Item,Useful
-Boat Tier 2,item:researchBoatTier2,1,Item,Useful
+Boat Tier 2,item:researchBoatTier2,1,Item,Progression
 Cultivator,item:researchCultivator,1,Item,Useful
 Bucklers Tier 1,item:researchBucklerTier1,1,Item,Useful
 Pickaxes Tier 2,item:researchPickaxeTier2,1,Item,Progression
@@ -186,7 +186,7 @@ Dvergr Stairs,item:researchDvergrStairs,1,Item,Filler
 Ceramic Plates,item:researchCeramicPlate,1,Item,Progression
 Boat Tier 4,item:researchBoatTier4,1,Item,Progression
 Artisan Press,item:researchArtisanUpgrade1,1,Item,Progression
-Galdr Table,item:researchGaldrTable,1,Item,Useful
+Galdr Table,item:researchGaldrTable,1,Item,Progression
 Galdr Table Upgrade 1,item:researchGaldrTableUpgrade1,1,Item,Useful
 Galdr Table Upgrade 2,item:researchGaldrTableUpgrade2,1,Item,Useful
 Cape Tier 6,item:researchCapeTier6,1,Item,Useful
