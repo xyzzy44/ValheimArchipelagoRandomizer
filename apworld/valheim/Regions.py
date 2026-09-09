@@ -56,12 +56,12 @@ Tier0,Tier1,Crafting,1,Workbench Upgrade 1,1
 Tier1,Tier2,Axes Tier 1,1,Bed Tier 1,1,Cooking Station,1,Troll Armor,1,Warmth Tier 1,1,Wooden Beams,1,Wooden Roofs,1,Wooden Floors,1,Storage Tier 2,1
 Tier2,Tier3,Boat Tier 1,1,Forge,1,Pickaxes Tier 1,1,Smelter,1,Charcoal Kiln,1,Mead Ketill,1,Fermenter,1,Beekeeping,1
 Tier3,Tier4,Bronze,1
-Tier4,Tier5,Axes Tier 2,1,Iron Cooking Station,1,Cauldron,1
+Tier4,Tier5,Axes Tier 2,1,Iron Cooking Station,1,Cauldron,1,Boat Tier 2,1
 Tier5,Tier6,Pickaxes Tier 2,1
 Tier6,Tier7,Forge Upgrade 1,1,Nails Tier 2,1,Pickaxes Tier 3,1
 Tier7,Tier8,Artisan Table,1,Blast Furnace,1
 Tier8,Tier9,Axes Tier 4,1,Forge Upgrade 2,1,Forge Upgrade 3,1,Spinning Wheel,1,Wisp Fountain,1,Wisplight,1
-Tier9,Tier10,Pickaxes Tier 4,1,Black Forge,1
+Tier9,Tier10,Pickaxes Tier 4,1,Black Forge,1,Galdr Table,1
 Tier10,Tier11,Artisan Press,1,Boat Tier 4,1,Ceramic Plates,1,Workbench Upgrade 2,1,Black Forge Upgrade 1,1,Black Forge Upgrade 2,1
 '''
 

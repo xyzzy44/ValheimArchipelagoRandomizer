@@ -100,7 +100,7 @@ SurtlingCore	researchWarmthTier3	Hearth		researchStonecutter|researchWarmthTier2
 ShieldIronTower	researchTowerShieldTier2	Tower Shields Tier 2		researchTowerShieldTier1|researchForgeUpgrade1|researchPickaxeTier2	SilverNecklace:1	ShieldIronTower|ShieldSerpentscale	6	Useful	
 ShieldIronBuckler	researchBucklerTier2	Bucklers Tier 2		researchBucklerTier1|researchPickaxeTier2	Entrails:2|FineWood:6|Coins:225	ShieldIronBuckler	6	Useful	
 Hammer	researchWorkbenchUpgrade4	Workbench Upgrade 4		researchWorkbenchUpgrade3|researchPickaxeTier3|researchWarmthTier1	Copper:2|Obsidian:2	piece_workbench_ext4	7	Useful	
-DragonTear	researchArtisanTable	Artisan Table		researchPickaxeTier3|researchWarmthTier1	FineWood:3|FreezeGland:8|WolfClaw:6	piece_artisanstation	7	Progression	Tier 7 to Tier 8
+DragonTear	researchArtisanTable	Artisan Table		researchPickaxeTier3|researchWarmthTier1	FineWood:3|FreezeGland:8|WolfClaw:6	piece_artisan_ext1	7	Progression	Tier 7 to Tier 8
 BlackMetalScrap	researchBlastFurnace	Blast Furnace		researchArtisanTable	Copper:2|WitheredBone:9|Crystal:10	blastfurnace	7	Progression	Tier 7 to Tier 8
 HelmetFenring	researchFenrisArmor	Fenris Armor		researchWarmthTier1|researchWorkbenchUpgrade1	Copper:5|WolfPelt:2	HelmetFenring|ArmorFenringChest|ArmorFenringLegs	7	Useful	
 HelmetDrake	researchWolfArmor	Wolf Armor		researchPickaxeTier3|researchWarmthTier1	WolfFang:5	ArmorWolfChest|ArmorWolfLegs|HelmetDrake	7	Useful	
@@ -167,8 +167,8 @@ CeramicPlate	researchCeramicPlate	Ceramic Plates		researchArtisanUpgrade1	RoundL
 Fish1	researchBoatTier4	Boat Tier 4		researchCeramicPlate	Sap:7	VikingShip_Ashlands	10	Progression	Tier 10 to Tier 11
 DragonTear	researchArtisanUpgrade1	Artisan Press		researchPickaxeTier4	Bloodbag:3|LoxPelt:6|Sap:5	piece_artisanstation	10	Progression	Tier 10 to Tier 11
 Eitr	researchGaldrTable	Galdr Table		researchEitrRefinery	RoundLog:10|Softtissue:8	piece_magetable	10	Useful	
-Eitr	researchGaldrTableUpgrade1	Galdr Table Upgrade 1		researchGaldrTable	Wisp:5	piece_magetable_ext2	10	Useful	
-Eitr	researchGaldrTableUpgrade2	Galdr Table Upgrade 2		researchGaldrTableUpgrade1	FineWood:1|BlackMarble:3	piece_magetable_ext	10	Useful	
+Eitr	researchGaldrTableUpgrade1	Galdr Table Upgrade 1		researchGaldrTable	Wisp:5	piece_magetable_ext	10	Useful	
+Eitr	researchGaldrTableUpgrade2	Galdr Table Upgrade 2		researchGaldrTableUpgrade1	FineWood:1|BlackMarble:3	piece_magetable_ext2	10	Useful	
 CapeFeather	researchCapeTier6	Cape Tier 6		researchCapeTier5|researchGaldrTable	Raspberry:5|Softtissue:9	CapeFeather	10	Useful	
 HelmetMage	researchEitrArmor	Eitr Armor		researchGaldrTable	RoundLog:2|Mandible:4|BlackMarble:8	HelmetMage|ArmorMageChest|ArmorMageLegs	10	Useful	
 AxeJotunBane	researchAxeTier5	Axes Tier 5		researchBlackForge|researchEitrRefinery	BlackMarble:5	AxeJotunBane	10	Useful	
