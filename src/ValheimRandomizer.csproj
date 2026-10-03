@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
-    <ValheimInstallDir>/home/archipelago/Steam/valheim</ValheimInstallDir>
+    <ValheimInstallDir>/home/archipelago/.local/share/Steam/steamapps/common/Valheim</ValheimInstallDir>
   </PropertyGroup>
 
   <ItemGroup>

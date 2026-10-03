@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using HarmonyLib;
 using System.IO;
+using System.Reflection;
 using System.Xml;
 using static ValheimRandomizer;
 
@@ -18,7 +19,7 @@ public class ValheimRandomizer : BaseUnityPlugin
 {
     public const string ModGuid = "com.samupo.randomizer";
     public const string ModName = "Randomizer";
-    public const string ModVersion = "0.2.5";
+    public const string ModVersion = "0.2.6";
 
     public static string Goal;
 
@@ -226,7 +227,8 @@ public class ValheimRandomizer : BaseUnityPlugin
 
         try
         {
-            string file = Path.Combine(Paths.PluginPath, "ValheimRandomizer/research.tsv");
+            string modDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string file = Path.Combine(modDir, "research.tsv");
 
             // Seed a tiny example if missing
             if (!File.Exists(file))
@@ -320,9 +322,10 @@ public class ValheimRandomizer : BaseUnityPlugin
     {
         try
         {
-            string pluginFolder = Paths.PluginPath;
-            string recipesFile = System.IO.Path.Combine(pluginFolder, "ValheimRandomizer/RecipesWithoutResearch.txt");
-            string piecesFile = System.IO.Path.Combine(pluginFolder, "ValheimRandomizer/PiecesWithoutResearch.txt");
+            string modDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string recipesFile = Path.Combine(modDir, "RecipesWithoutResearch.txt");
+            string piecesFile = Path.Combine(modDir, "PiecesWithoutResearch.txt");
+
 
             var recipesWithoutResearch = new List<string>();
             var piecesWithoutResearch = new List<string>();
@@ -386,7 +389,9 @@ public class ValheimRandomizer : BaseUnityPlugin
     {
         try
         {
-            string file = System.IO.Path.Combine(Paths.PluginPath, "ValheimRandomizer/trophies.tsv");
+            string modDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string file = Path.Combine(modDir, "trophies.tsv");
+
             if (!System.IO.File.Exists(file))
             {
                 Logger.LogWarning($"Trophy research file not found at {file}. Skipping trophy researches.");
