@@ -22,12 +22,12 @@ Hoe	researchHoe	Hoe		researchWorkbench	Thistle:10	Hoe	1	Useful
 QueenBee	researchBeekeeping	Beekeeping		researchWorkbench	Honey:3	piece_beehive	1	Useful	WOOD PIECES
 Wood	researchFloorWood	Wooden Floors		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_floor_1x1|wood_floor	1	Useful	
 Wood	researchStairsWood	Wooden Stairs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_stair|wood_stepladder	1	Useful	
-Wood	researchWallsWood	Wooden Walls		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45	1	Useful	
-Wood	researchRoofsWood	Wooden Roofs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_roof|wood_roof_top|wood_roof_ocorner|wood_roof_icorner|wood_roof_45|wood_roof_top_45|wood_roof_ocorner_45|wood_roof_icorner_45	1	Useful	
-Wood	researchBeamsWood	Wooden Beams		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_pole|wood_pole2|wood_beam_1|wood_beam|wood_beam_26|wood_beam_45	1	Useful	
+Wood	researchWallsWood	Wooden Walls		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45|wood_wall_roof_67_a|wood_wall_roof_67_upsidedown|wood_wall_roof_a|wood_wall_roof_top_67	1	Useful	
+Wood	researchRoofsWood	Wooden Roofs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_roof|wood_roof_top|wood_roof_ocorner|wood_roof_icorner|wood_roof_45|wood_roof_top_45|wood_roof_ocorner_45|wood_roof_icorner_45|wood_roof_67|wood_roof_icorner_67|wood_roof_ocorner_67|wood_roof_top_67	1	Useful	
+Wood	researchBeamsWood	Wooden Beams		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_pole|wood_pole2|wood_beam_1|wood_beam|wood_beam_26|wood_beam_45|wood_beam_67	1	Useful	
 Wood	researchDoorsWood	Wooden Doors		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_door|wood_gate	1	Useful	
 CookedMeat	researchCookingStation	Cooking Station		researchWarmthTier1|researchWorkbench	BoneFragments:5|Thistle:5	piece_cookingstation	1	Progression	
-Stone	researchStorageTier1	Storage Tier 1		researchWorkbench	Feathers:5|Ruby:2	bone_stack|treasure_pile|treasure_stack|wood_yggdrasil_stack|blackmarble_pile|blackwood_stack|grausten_pile|skull_pile|wood_stack|stone_pile|wood_fine_stack|wood_core_stack|coal_pile	1	Useful	STORAGE
+Stone	researchStorageTier1	Storage Tier 1		researchWorkbench	Feathers:5|Ruby:2	bone_stack|treasure_pile|treasure_stack|wood_yggdrasil_stack|blackmarble_pile|blackwood_stack|grausten_pile|skull_pile|wood_stack|stone_pile|wood_fine_stack|wood_core_stack|coal_pile|bar_blackmetal_stack|bar_bronze_stack|bar_copper_stack|bar_flametal_stack|bar_gold_stack|bar_iron_stack|bar_silver_stack|bar_tin_stack|flint_pile|wood_frost_stack	1	Useful	STORAGE
 Wood	researchStorageTier2	Storage Tier 2		researchStorageTier1	Amber:2|Ruby:2	piece_chest_wood|piece_chest_barrel	1	Useful	
 Wood	researchBedTier1	Bed Tier 1		researchWorkbench	AmberPearl:10	bed	1	Progression	BEDS
 ShieldWood	researchShieldTier1	Shields Tier 1		researchWorkbench	Wood:15|Stone:10|Thistle:2	ShieldWood	1	Useful	SHIELDS
@@ -38,12 +38,12 @@ Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:2|RoundLog:5	
 Coal	researchSmelter	Smelter		researchWorkbench	RoundLog:10|Raspberry:10	smelter	2	Progression	Tier 2 to Tier 3
 Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	RoundLog:5|MushroomYellow:2	forge	2	Progression	Tier 2 to Tier 3
 SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:20	SledgeStagbreaker	2	Useful	
-RoundLog	researchBeamsCorewood	Corewood Beams		researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
+RoundLog	researchBeamsCorewood	Corewood Beams		researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45|wood_log_67	2	Filler	COREWOOD  PIECES
 Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Tin:10|Copper:5	Bronze	3	Progression	Tier 3 to Tier 4
 KnifeCopper	researchShortBladesTier2	Short Blades Tier 2		researchShortBladesTier1|researchForge	Copper:10|Stone:10	KnifeCopper	3	Useful	
 SpearChitin	researchHarpoon	Harpoon		researchAxeTier2|researchBoatTier1	Tin:5	SpearChitin	3	Useful	
-Tar	researchRoofsDarkwood	Darkwood Roofs		researchBoatTier1	Wood:10|Chitin:2	darkwood_roof|darkwood_roof_top|darkwood_roof_ocorner|darkwood_roof_icorner|darkwood_roof_45|darkwood_roof_top_45|darkwood_roof_ocorner_45|darkwood_roof_icorner_45	3	Filler	DARKWOOD PIECES
-Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Wood:10|Chitin:2	darkwood_pole|darkwood_pole4|darkwood_beam|darkwood_beam_26|darkwood_beam_45|darkwood_beam4x4	3	Filler	
+Tar	researchRoofsDarkwood	Darkwood Roofs		researchBoatTier1	Wood:10|Chitin:2	darkwood_roof|darkwood_roof_top|darkwood_roof_ocorner|darkwood_roof_icorner|darkwood_roof_45|darkwood_roof_top_45|darkwood_roof_ocorner_45|darkwood_roof_icorner_45|darkwood_roof_67|darkwood_roof_icorner_67|darkwood_roof_ocorner_67|darkwood_roof_top_67	3	Filler	DARKWOOD PIECES
+Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Wood:10|Chitin:2	darkwood_pole|darkwood_pole4|darkwood_beam|darkwood_beam_26|darkwood_beam_45|darkwood_beam_67|darkwood_beam4x4	3	Filler	
 Tar	researchDecorationsDarkwod	Darkwood Decorations		researchBoatTier1	Wood:10|Chitin:2	darkwood_decowall|darkwood_arch|darkwood_raven|darkwood_wolf	3	Filler	
 SerpentStew	researchCauldron	Cauldron		researchForge|researchWarmthTier1	Chitin:10	piece_cauldron	3	Useful	
 SerpentStew	researchCauldronUpgrade1	Cauldron Upgrade 1		researchCauldron	Tin:6	cauldron_ext1_spice	3	Useful	
@@ -165,7 +165,7 @@ CrossbowArbalest	researchDvergrFences	Dvergr Fences		researchAxeTier4	CarrotSeed
 CrossbowArbalest	researchDvergrStairs	Dvergr Stairs		researchAxeTier4	Blueberries:2|Ooze:1|Bilebag:9	piece_dvergr_spiralstair|piece_dvergr_spiralstair_right	9	Filler	
 CeramicPlate	researchCeramicPlate	Ceramic Plates		researchArtisanUpgrade1	RoundLog:9|WitheredBone:1|Softtissue:1	CeramicPlate	10	Progression	Tier 10 to Tier 11
 Fish1	researchBoatTier4	Boat Tier 4		researchCeramicPlate	Sap:7	VikingShip_Ashlands	10	Progression	Tier 10 to Tier 11
-DragonTear	researchArtisanUpgrade1	Artisan Press		researchPickaxeTier4	Bloodbag:3|LoxPelt:6|Sap:5	piece_artisanext1	10	Progression	Tier 10 to Tier 11
+DragonTear	researchArtisanUpgrade1	Artisan Press		researchPickaxeTier4	Bloodbag:3|LoxPelt:6|Sap:5	piece_artisan_ext1	10	Progression	Tier 10 to Tier 11
 Eitr	researchGaldrTable	Galdr Table		researchEitrRefinery	RoundLog:10|Softtissue:8	piece_magetable	10	Useful	
 Eitr	researchGaldrTableUpgrade1	Galdr Table Upgrade 1		researchGaldrTable	Wisp:5	piece_magetable_ext	10	Useful	
 Eitr	researchGaldrTableUpgrade2	Galdr Table Upgrade 2		researchGaldrTableUpgrade1	FineWood:1|BlackMarble:3	piece_magetable_ext2	10	Useful	
@@ -212,7 +212,7 @@ StaffRedTroll	researchBloodMagicTier2	Blood Magic Tier 2		reserachBloodMagicTier
 Catapult_ammo	researchSiege	Siege		researchBoatTier4	MushroomSmokePuff:8	Catapult_ammo|Catapult|BatteringRam	11	Useful	
 TrinketFlametalStaminaHealth	researchTrinketTier6	Trinkets Tier 6		researchTrinketTier5|researchBoatTier4	TurnipSeeds:6|BlackMarble:7|AsksvinCarrionNeck:4	TrinketFlametalStaminaHealth|TrinketFlametalEitr	11	Useful	
 Blackwood	researchAshwoodFloor	Ashwood Floors		researchBoatTier4	Copper:6|SulfurStone:5	ashwood_floor_2x2|ashwood_floor_1x1|ashwood_deco_floor	11	Filler	ASHLAND PIECES
-Blackwood	researchAshwoodWalls	Ashwood Walls		researchBoatTier4	Barley:7|Softtissue:1|MorgenHeart:10	ashwood_wall_2x2|ashwood_halfwall_1x2|ashwood_quarterwall_1x1|ashwood_wall_arch|ashwood_wall_beam_26|ashwood_wall_cross_26|ashwood_wall_beam_45|ashwood_wall_cross_45|ashwood_wall_roof_26|ashwood_wall_roof_26_upsidedown|ashwood_wall_roof_45|ashwood_wall_roof_45_upsidedown	11	Filler	
+Blackwood	researchAshwoodWalls	Ashwood Walls		researchBoatTier4	Barley:7|Softtissue:1|MorgenHeart:10	ashwood_wall_2x2|ashwood_halfwall_1x2|ashwood_quarterwall_1x1|ashwood_wall_arch|ashwood_wall_beam_26|ashwood_wall_cross_26|ashwood_wall_beam_45|ashwood_wall_cross_45|ashwood_wall_beam_67|ashwood_wall_cross_67|ashwood_wall_roof_26|ashwood_wall_roof_26_upsidedown|ashwood_wall_roof_45|ashwood_wall_roof_45_upsidedown|ashwood_wall_roof_67_a|ashwood_wall_roof_67_upsidedown	11	Filler	
 Blackwood	researchAshwoodDecoration	Ashwood Decorations		researchBoatTier4	FineWood:2|SilverNecklace:1|MoltenCore:8	ashwood_decowall_2x2|ashwood_decowall_tree|ashwood_decowall_divider|ashwood_arch_big	11	Filler	
 Blackwood	researchAshwoodBeams	Ashwood Beams		researchBoatTier4	FineWood:4|AskBladder:7	ashwood_beam_1m|ashwood_beam_2m|ashwood_pole_1m|ashwood_pole_2m	11	Filler	
 Blackwood	researchAshwoodStairs	Ashwood Stairs		researchBoatTier4	RoundLog:1|CharcoalResin:10	ashwood_stair	11	Filler	
